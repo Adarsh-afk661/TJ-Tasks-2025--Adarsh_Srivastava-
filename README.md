@@ -1,22 +1,21 @@
 # TJ-Tasks-2025--Adarsh_Srivastava-
+# ⚙️ Minimum Operations to Make Product Positive
 
-Question 1->
-Minimum Operations to Make Product Positive? Code is in file.
+## 🧩 Problem Statement
 
-Algorithm:
-Count zeros and -1s:
+You are given an array `a` of `n` integers, where each element is **−1**, **0**, or **1**.  
+In one operation, you can choose an index `i` and **increase** `a[i]` by 1.
 
-Loop through the array.
-Let zeros = number of 0s, neg = number of -1s.
-Handle zeros:
+That means:
+- `-1 → 0 → 1 → 2 → ...`
+- `0 → 1 → 2 → ...`
 
-Each zero must become 1 → zeros operations.
-Check negative count:
+Your goal is to make the **product of all elements strictly positive** (`> 0`)  
+using the **minimum number of operations**.
 
-If neg is even, the product of negatives is already positive.
-If neg is odd, flip one -1 to make the product positive.
-Calculate total operations:
+It is guaranteed that this is always possible.
 
-ops = zeros + neg (each -1 requires 1 operation to flip partially)
-If neg is odd → add 1 extra operation to handle the odd negative.
-Print result:
+---
+
+## 📥 Input Format
+
