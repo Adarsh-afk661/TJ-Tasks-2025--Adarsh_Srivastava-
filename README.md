@@ -36,4 +36,4 @@ Transform the given array so that the **product of all its elements becomes posi
        ops += 1   # one extra operation for balancing the sign
 
 5.**Print Result**
-Output the minimum number of operations required to ensure the product is positive.
+- Output the minimum number of operations required to ensure the product is positive.
