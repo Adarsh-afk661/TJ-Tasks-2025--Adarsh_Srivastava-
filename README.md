@@ -1,19 +1,19 @@
-# 🌟 TJ-Tasks-2025 — Adarsh Srivastava  
-### 📘 Data Structures & Algorithms (Beginner / Easy)
+#  TJ-Tasks-2025 — Adarsh Srivastava  
+###  Data Structures & Algorithms (Beginner / Easy)
 
 Welcome to **TJ Tasks 2025**, a beginner-friendly DSA challenge set by **Adarsh Srivastava**.  
 This collection includes simple yet conceptually strong problems focused on logic building and problem-solving fundamentals.
 
 ---
 
-## 🧮 Question 1 — Minimum Operations to Make Product Positive
+##  Question 1 — Minimum Operations to Make Product Positive
 
-### 🎯 Objective
+###  Objective
 Transform the given array so that the **product of all its elements becomes positive** using the fewest possible operations.
 
 ---
 
-### ⚙️ Algorithm Steps
+###  Algorithm Steps
 
 1. **Count Zeros and Negatives**
    - Traverse the array.
@@ -34,3 +34,6 @@ Transform the given array so that the **product of all its elements becomes posi
    ops = zeros + number_of_flips
    if neg is odd:
        ops += 1   # one extra operation for balancing the sign
+
+5.**Print Result**
+Output the minimum number of operations required to ensure the product is positive.
