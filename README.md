@@ -1,17 +1,17 @@
-# 🚀 TJ Tasks 2025 – Anubhav Mishra
-### 📚 DSA | Beginner / Easy Level Problems
+# TJ Tasks 2025 – Adarsh Srivastava
+### DSA | Beginner / Easy Level Problems
 
 This repository contains solutions to three fundamental **Data Structures & Algorithms** problems.  
 Each problem focuses on logic building, mathematical reasoning, and efficient implementation in code.
 
 ---
 
-## 🧮 Question 1: Minimum Operations to Make Product Positive  
+## Question 1: Minimum Operations to Make Product Positive  
 
-### 🔍 Problem Overview  
+### Problem Overview  
 You are given an array of integers. Your task is to determine the **minimum number of operations** required to make the **product of all elements positive**.
 
-### 💡 Logic Used  
+### Logic Used  
 1. **Count Zeros and Negatives:**  
    - Traverse the array and count how many elements are `0` and how many are negative (`< 0`).  
 
@@ -31,12 +31,12 @@ You are given an array of integers. Your task is to determine the **minimum numb
 
 ---
 
-## 🔢 Question 2: Sum of Alternating Sequence  
+## Question 2: Sum of Alternating Sequence  
 
-### 🔍 Problem Overview  
+### Problem Overview  
 For given integers `x` and `n`, you need to compute the **sum of an alternating sequence** according to given conditions.
 
-### 💡 Logic Used  
+### Logic Used  
 1. Read number of test cases `t`.  
 2. For each test case, take input values `x` and `n`.  
 3. Apply logic:  
@@ -46,12 +46,12 @@ For given integers `x` and `n`, you need to compute the **sum of an alternating 
 
 ---
 
-## 🌎 Question 3: Trippi Troppi’s World  
+## Question 3: Trippi Troppi’s World  
 
-### 🔍 Problem Overview  
+### Problem Overview  
 Given three words for each test case, form a **modern name** by using the initials.
 
-### 💡 Logic Used  
+### Logic Used  
 1. Input total number of test cases `t`.  
 2. For each test case, read three space-separated words.  
 3. Take the **first character** from each word.  
@@ -60,7 +60,7 @@ Given three words for each test case, form a **modern name** by using the initia
 
 ---
 
-## 🧰 Example Output (for illustration)
+## Example Output (for illustration)
 ```
 Input:
 3
@@ -76,6 +76,6 @@ amt
 
 ---
 
-## 🧑‍💻 Author
-**Anubhav Mishra**  
+## Author
+**Adarsh Srivastava**  
 *Data Structures & Algorithms | TJ Tasks 2025*
