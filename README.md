@@ -1,39 +1,81 @@
-#  TJ-Tasks-2025 — Adarsh Srivastava  
-###  Data Structures & Algorithms (Beginner / Easy)
+# 🚀 TJ Tasks 2025 – Anubhav Mishra
+### 📚 DSA | Beginner / Easy Level Problems
 
-Welcome to **TJ Tasks 2025**, a beginner-friendly DSA challenge set by **Adarsh Srivastava**.  
-This collection includes simple yet conceptually strong problems focused on logic building and problem-solving fundamentals.
-
----
-
-##  Question 1 — Minimum Operations to Make Product Positive
-
-###  Objective
-Transform the given array so that the **product of all its elements becomes positive** using the fewest possible operations.
+This repository contains solutions to three fundamental **Data Structures & Algorithms** problems.  
+Each problem focuses on logic building, mathematical reasoning, and efficient implementation in code.
 
 ---
 
-###  Algorithm Steps
+## 🧮 Question 1: Minimum Operations to Make Product Positive  
 
-1. **Count Zeros and Negatives**
-   - Traverse the array.
-   - Let:
-     - `zeros` = number of elements equal to `0`
-     - `neg` = number of negative elements
+### 🔍 Problem Overview  
+You are given an array of integers. Your task is to determine the **minimum number of operations** required to make the **product of all elements positive**.
 
-2. **Handle Zeros**
-   - Each `0` must be turned into `1` (since multiplication by `0` results in a product of `0`).
-   - So, **`zeros` operations** are needed here.
+### 💡 Logic Used  
+1. **Count Zeros and Negatives:**  
+   - Traverse the array and count how many elements are `0` and how many are negative (`< 0`).  
 
-3. **Balance Negatives**
-   - If `neg` is **even**, the product of negatives is already **positive**.
-   - If `neg` is **odd**, flip one negative (`-1 → 1`) to make the overall product positive.
+2. **Handle Zero Elements:**  
+   - Each `0` must be converted to `1` → each conversion counts as one operation.  
 
-4. **Calculate Total Operations**
-   ```text
-   ops = zeros + number_of_flips
-   if neg is odd:
-       ops += 1   # one extra operation for balancing the sign
+3. **Check Parity of Negatives:**  
+   - If the number of negatives is even → product is already positive.  
+   - If odd → flip one negative to positive (requires 1 extra operation).  
 
-5.**Print Result**
-- Output the minimum number of operations required to ensure the product is positive.
+4. **Total Operations:**  
+   ```
+   total_ops = zeros + (negatives are odd ? 1 : 0)
+   ```
+   
+5. **Print the Result** for each test case.
+
+---
+
+## 🔢 Question 2: Sum of Alternating Sequence  
+
+### 🔍 Problem Overview  
+For given integers `x` and `n`, you need to compute the **sum of an alternating sequence** according to given conditions.
+
+### 💡 Logic Used  
+1. Read number of test cases `t`.  
+2. For each test case, take input values `x` and `n`.  
+3. Apply logic:  
+   - If `n` is even → the sum of the sequence = `0`.  
+   - If `n` is odd → the sum = `x`.  
+4. Print the result for every test case.
+
+---
+
+## 🌎 Question 3: Trippi Troppi’s World  
+
+### 🔍 Problem Overview  
+Given three words for each test case, form a **modern name** by using the initials.
+
+### 💡 Logic Used  
+1. Input total number of test cases `t`.  
+2. For each test case, read three space-separated words.  
+3. Take the **first character** from each word.  
+4. Concatenate them to form the result (modern name).  
+5. Print the final output.
+
+---
+
+## 🧰 Example Output (for illustration)
+```
+Input:
+3
+-1 0 2
+4 5
+anubhav mishra tj
+
+Output:
+2
+0
+amt
+```
+
+---
+
+## 🧑‍💻 Author
+**Anubhav Mishra**  
+*Data Structures & Algorithms | TJ Tasks 2025*
