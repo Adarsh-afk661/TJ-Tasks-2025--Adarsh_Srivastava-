@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+
+    while(t--) {
+        int n, zeros = 0, neg = 0;
+        cin >> n;
+
+        for(int i = 0; i < n; i++) {
+            int x;
+            cin >> x;
+            if(x == 0) zeros++;
+            if(x == -1) neg++;
+        }
+
+        int ops = zeros + neg;     
+        if(neg % 2 != 0) ops += 1;
+
+        cout << ops << endl;
+    }
+
+    return 0;
+}
