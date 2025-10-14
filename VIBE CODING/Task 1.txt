@@ -1,0 +1,10 @@
+Build a complete, deployable 2-player Tic Tac Toe web game using HTML, CSS, and JavaScript in a single file. 
+Requirements:
+1. Display a 3x3 grid with clickable cells.
+2. Two players alternate turns (X and O).
+3. Show whose turn it is.
+4. Detect and display win, loss, or draw.
+5. Highlight winning combination when game ends.
+6. Provide a "Replay" button to restart the game.
+7. Include basic styling: hover effects on cells, colored X and O, centered board.
+8. The game must run entirely in the browser (no backend required).

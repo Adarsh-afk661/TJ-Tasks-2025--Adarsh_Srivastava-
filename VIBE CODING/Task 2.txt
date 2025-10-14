@@ -1,0 +1,32 @@
+
+Build a fully functional real-time chat application with frontend, backend, and database in one go. Requirements:
+
+1. Frontend:
+   - Responsive UI using HTML, CSS, and JavaScript.
+   - Text input and send button.
+   - Display messages with sender name and timestamp.
+   - Auto-scroll on new messages.
+   - Message bubbles styled for readability.
+   - Responsive layout for desktop and mobile.
+
+2. Backend:
+   - Node.js + Express server.
+   - REST API endpoints:
+     - POST /messages → save a new message {user, message, timestamp}.
+     - GET /messages → retrieve all messages.
+   - WebSocket support for real-time message broadcasting to all connected clients.
+
+3. Database:
+   - Use SQLite or MongoDB to persist messages.
+   - Messages stored as {user, message, timestamp}.
+   - API endpoints interact with database instead of in-memory array.
+
+4. Integration:
+   - Frontend fetches existing messages on load.
+   - Frontend sends new messages via POST /messages.
+   - Frontend updates chat in real-time using WebSocket.
+
+5. Deployment:
+   - Instructions for hosting frontend and backend on Vercel or Netlify.
+   - Fully functional and deployable.
+
