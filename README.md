@@ -73,6 +73,47 @@ Output:
 0
 amt
 ```
+# Vibe Coding Challenges
+
+Welcome to **Vibe Coding**! These challenges are designed to sharpen your web development skills while keeping things fun and interactive. Complete them to showcase your coding vibe.  
+
+---
+
+## Challenge 1: Tic Tac Toe – Quick & Clean (Easy)
+
+**Objective:**  
+Build a fully playable Tic Tac Toe game in **one HTML file**.
+
+**Requirements:**  
+- Use **HTML, CSS, and JavaScript** only.  
+- Display a **3x3 grid** for two players.  
+- Implement **turn tracking** and show **current player**.  
+- Detect **wins, draws**, and **highlight the winning combination**.  
+- Include a **“Replay” button** – no page refresh required.  
+- Keep code **self-contained** and **ready to run**.  
+- Bonus: add **comments** to explain your logic.  
+
+**Expected Result:**  
+Open in a browser → play instantly → see the vibe.  
+
+---
+
+## Challenge 2: Real-Time Chat – Connected & Smooth (Medium)
+
+**Objective:**  
+Create a **live multi-user chat app** with backend storage.
+
+**Requirements:**  
+- **Frontend:** Clean UI showing **user names, timestamps, and messages**.  
+- **Backend:** API to **store and retrieve messages**.  
+- Real-time updates using **WebSockets** or **polling**.  
+- Ensure **multi-user messaging works seamlessly**.  
+- Write **readable code**, using **traditional loops** where appropriate.  
+- Document your creation in a **.txt file**, showing **step-by-step prompt chaining**.  
+- Optional: integrate **AI agents or prompt chaining** to enhance features.  
+
+**Expected Result:**  
+Fully deployed chat app → multiple users chatting live → smooth vibe.  
 
 ---
 
